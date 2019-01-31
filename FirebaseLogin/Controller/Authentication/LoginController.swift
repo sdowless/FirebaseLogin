@@ -8,7 +8,6 @@
 
 import UIKit
 import Firebase
-import GoogleSignIn
 
 class LoginController: UIViewController {
     

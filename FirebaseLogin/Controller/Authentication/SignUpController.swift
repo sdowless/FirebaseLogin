@@ -8,9 +8,8 @@
 
 import UIKit
 import Firebase
-import GoogleSignIn
 
-class SignUpController: UIViewController, GIDSignInUIDelegate {
+class SignUpController: UIViewController {
     
     // MARK: - Properties
     
