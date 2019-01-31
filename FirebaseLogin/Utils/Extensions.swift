@@ -9,17 +9,6 @@
 import UIKit
 import Firebase
 
-extension Database {
-    static func fetchUser(withUid uid: String, completion: @escaping(User) -> ()) {
-        USERS_REF.child(uid).observeSingleEvent(of: .value) { (snapshot) in
-            guard let dictionary = snapshot.value as? [String: AnyObject] else { return }
-            let uid = snapshot.key
-            let user = User(uid: uid, dictionary: dictionary)
-            completion(user)
-        }
-    }
-}
-
 extension UIView {
     func anchor(top: NSLayoutYAxisAnchor?, left: NSLayoutXAxisAnchor?, bottom: NSLayoutYAxisAnchor?, right: NSLayoutXAxisAnchor?,  paddingTop: CGFloat, paddingLeft: CGFloat, paddingBottom: CGFloat, paddingRight: CGFloat, width: CGFloat, height: CGFloat) {
         

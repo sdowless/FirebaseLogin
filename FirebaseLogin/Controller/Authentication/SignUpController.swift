@@ -104,8 +104,7 @@ class SignUpController: UIViewController {
             guard let uid = authResult?.user.uid else { return }
             
             let values = ["email": email,
-                          "username": username,
-                          "accountType": AccountType.Staff.rawValue] as [String : Any]
+                          "username": username] 
             
             USERS_REF.child(uid).updateChildValues(values, withCompletionBlock: { (err, ref) in
                 if let err = err {

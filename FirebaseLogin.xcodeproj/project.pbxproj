@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23678C8121E8F6C300B2C948 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23678C8021E8F6C300B2C948 /* User.swift */; };
 		238D7ABB21DAC0160042CE88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238D7ABA21DAC0160042CE88 /* AppDelegate.swift */; };
 		238D7AC021DAC0160042CE88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 238D7ABE21DAC0160042CE88 /* Main.storyboard */; };
 		238D7AC221DAC0170042CE88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 238D7AC121DAC0170042CE88 /* Assets.xcassets */; };
@@ -23,7 +22,6 @@
 
 /* Begin PBXFileReference section */
 		02AE69DB8F96B7A72E777E17 /* Pods-FirebaseLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseLogin/Pods-FirebaseLogin.release.xcconfig"; sourceTree = "<group>"; };
-		23678C8021E8F6C300B2C948 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		238D7AB721DAC0160042CE88 /* FirebaseLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		238D7ABA21DAC0160042CE88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		238D7ABF21DAC0160042CE88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -59,21 +57,6 @@
 				238D7ADD21DC1D0B0042CE88 /* HomeController.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		23678C7921E8F65A00B2C948 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		23678C7A21E8F65B00B2C948 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				23678C8021E8F6C300B2C948 /* User.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		23678C7B21E8F66F00B2C948 /* Authentication */ = {
@@ -116,8 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				23678C7C21E8F68100B2C948 /* Utils */,
-				23678C7A21E8F65B00B2C948 /* Model */,
-				23678C7921E8F65A00B2C948 /* View */,
 				23678C7821E8F65900B2C948 /* Controller */,
 				238D7ABA21DAC0160042CE88 /* AppDelegate.swift */,
 				238D7ABE21DAC0160042CE88 /* Main.storyboard */,
@@ -276,7 +257,6 @@
 				238D7ADA21DC094F0042CE88 /* Extensions.swift in Sources */,
 				238D7ABB21DAC0160042CE88 /* AppDelegate.swift in Sources */,
 				238D7ADE21DC1D0B0042CE88 /* HomeController.swift in Sources */,
-				23678C8121E8F6C300B2C948 /* User.swift in Sources */,
 				238D7AD221DB79DA0042CE88 /* LoginController.swift in Sources */,
 				238D7AD421DB7A7F0042CE88 /* SignUpController.swift in Sources */,
 				238D7ADC21DC1ACD0042CE88 /* Constants.swift in Sources */,
