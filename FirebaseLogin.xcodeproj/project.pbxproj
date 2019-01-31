@@ -56,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				23678C7B21E8F66F00B2C948 /* Authentication */,
-				23678C7D21E8F6A000B2C948 /* TabBar */,
+				238D7ADD21DC1D0B0042CE88 /* HomeController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -92,14 +92,6 @@
 				238D7AD921DC094F0042CE88 /* Extensions.swift */,
 			);
 			path = Utils;
-			sourceTree = "<group>";
-		};
-		23678C7D21E8F6A000B2C948 /* TabBar */ = {
-			isa = PBXGroup;
-			children = (
-				238D7ADD21DC1D0B0042CE88 /* HomeController.swift */,
-			);
-			path = TabBar;
 			sourceTree = "<group>";
 		};
 		238D7AAE21DAC0160042CE88 = {
